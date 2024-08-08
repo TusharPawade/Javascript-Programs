@@ -1,0 +1,31 @@
+Write a function to add two numbers.
+Create a function to find the largest of three numbers.
+Write a function to check if a number is even or odd.
+Create a function to reverse a string.
+Write a function to check if a string is a palindrome.
+Create a function to find the factorial of a number.
+Write a function to find the Fibonacci series up to a certain number of terms.
+Create a function to check if a given year is a leap year.
+Write a function to find the sum of digits of a number.
+Create a function to convert Celsius to Fahrenheit and vice versa.
+Write a function to find the longest word in a sentence.
+Create a function to count the number of vowels in a string.
+Write a function to remove duplicates from an array.
+Create a function to sort an array of numbers in ascending order.
+Write a function to find the intersection of two arrays.
+Create a function to check if a given number is prime.
+Write a function to generate a random number within a specified range.
+Create a function to reverse the order of words in a sentence.
+**?Write a function to capitalize the first letter of each word in a sentence.
+Create a function to find the second largest number in an array.
+
+<=============================================================================================>
+
+//Find the subarray with the maximum product.
+//Implement a function to rearrange an array such that positive and negative numbers alternate.
+//?Write a function to find the smallest subarray with a sum greater than a given value.
+//implement a function to remove a given element from an array.
+//Find the length of the longest subarray.
+//Implement a function to partition an array into even and odd elements.
+Find the longest subarray with alternating even and odd elements.
+//Move all zeros to the end of an array.

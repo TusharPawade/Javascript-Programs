@@ -1,0 +1,44 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>Welcome to javascript</h1>
+    <script src="debouncing.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Example</title>
+</head>
+<body>
+    <h1>Welcome to Local Storage Example</h1>
+    <input type="text" id="name" placeholder="Enter your name">
+    <button onclick="storeName()">Save Name</button>
+    <button onclick="retrieveName()">Show Name</button>
+    <p id="displayName"></p>
+
+    <script>
+        function storeName() {
+            var name = document.getElementById('name').value;
+            localStorage.setItem('username', name);
+            alert('Name stored successfully!');
+        }
+
+        function retrieveName() {
+            var name = localStorage.getItem('username');
+            if (name) {
+                document.getElementById('displayName').innerText = 'Stored Name: ' + name;
+            } else {
+                document.getElementById('displayName').innerText = 'No name found in local storage.';
+            }
+        }
+    </script>
+</body>
+</html>
